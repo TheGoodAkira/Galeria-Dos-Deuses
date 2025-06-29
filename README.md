@@ -1,1 +1,0 @@
-# Galeria-Dos-Deuses
