@@ -27,5 +27,8 @@ Uma pequena galeria mitológica criada com HTML, CSS e JavaScript, exibindo figu
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🙏 Agradecimentos
+
+Criado com dedicação por **Akira**, amante de mitologia, gatos e estrelas.  
+🌙 *"Que cada deus traga uma nova história a ser contada."*
 
