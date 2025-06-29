@@ -47,7 +47,7 @@ const deuses = [
     simbolos: ["Tridente", "Serpente"],
     descricao: "Deus da transformação, destruição e regeneração."
   },
-  // Africana (exemplo Yoruba)
+  // Africana
   {
     nome: "Ogun",
     mitologia: "Africana",
