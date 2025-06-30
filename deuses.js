@@ -18,7 +18,7 @@ const deuses = [
   // Nórdica
   {
     nome: "Thor",
-    mitologia: "Nórdica",
+    mitologia: "Nordica",
     dominio: "Trovão e Força",
     simbolos: ["🔨", "⚡"],
     descricao: "Deus do trovão, empunha o martelo Mjölnir."
@@ -26,7 +26,7 @@ const deuses = [
   // Egípcia
   {
     nome: "Rá",
-    mitologia: "Egípcia",
+    mitologia: "Egipcia",
     dominio: "Sol e Criação",
     simbolos: ["☀️", "Falcão"],
     descricao: "Deus sol, criador e senhor do céu."
