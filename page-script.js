@@ -1,17 +1,11 @@
 const galeria = document.getElementById("galeria");
 
-// Captura o nome da página (ex: "egipcia", "nordica", etc.)
+// Nome da página (ex: egipcia)
 const pagina = window.location.pathname.split("/").pop().split(".")[0];
 
-// Coloca a primeira letra maiúscula para exibição
-const nomeMitologia = pagina.charAt(0).toUpperCase() + pagina.slice(1);
-
-// Função para remover acentos e normalizar strings
-const normalizar = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-
-// Filtra os deuses com base no nome da mitologia da página
+// Filtra usando o campo idMitologia (sem acento, tudo minúsculo)
 const deusesFiltrados = deuses.filter(
-  (d) => normalizar(d.mitologia) === normalizar(nomeMitologia)
+  (d) => d.idMitologia === pagina
 );
 
 // Renderiza os cards
@@ -26,4 +20,3 @@ deusesFiltrados.forEach((deus) => {
   `;
   galeria.appendChild(card);
 });
-
