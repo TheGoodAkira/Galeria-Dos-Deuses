@@ -15,18 +15,18 @@ const deuses = [
     simbolos: ["🦅", "⚡"],
     descricao: "Equivalente romano de Zeus, rei dos deuses do Olimpo."
   },
-  // Nórdica
+  // Nordica
   {
     nome: "Thor",
-    mitologia: "Nordica",
+    mitologia: "Nórdica",
     dominio: "Trovão e Força",
     simbolos: ["🔨", "⚡"],
     descricao: "Deus do trovão, empunha o martelo Mjölnir."
   },
-  // Egípcia
+  // Egipcia
   {
     nome: "Rá",
-    mitologia: "Egipcia",
+    mitologia: "Egípcia",
     dominio: "Sol e Criação",
     simbolos: ["☀️", "Falcão"],
     descricao: "Deus sol, criador e senhor do céu."
