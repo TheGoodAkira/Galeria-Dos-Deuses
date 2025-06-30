@@ -1,10 +1,21 @@
 const galeria = document.getElementById("galeria");
+
+// Captura o nome da página (ex: "egipcia", "nordica", etc.)
 const pagina = window.location.pathname.split("/").pop().split(".")[0];
+
+// Coloca a primeira letra maiúscula para exibição
 const nomeMitologia = pagina.charAt(0).toUpperCase() + pagina.slice(1);
 
-const deusesFiltrados = deuses.filter(d => d.mitologia.toLowerCase() === nomeMitologia.toLowerCase());
+// Função para remover acentos e normalizar strings
+const normalizar = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-deusesFiltrados.forEach(deus => {
+// Filtra os deuses com base no nome da mitologia da página
+const deusesFiltrados = deuses.filter(
+  (d) => normalizar(d.mitologia) === normalizar(nomeMitologia)
+);
+
+// Renderiza os cards
+deusesFiltrados.forEach((deus) => {
   const card = document.createElement("div");
   card.className = "card";
   card.innerHTML = `
@@ -15,3 +26,4 @@ deusesFiltrados.forEach(deus => {
   `;
   galeria.appendChild(card);
 });
+
