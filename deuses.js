@@ -3,6 +3,7 @@ const deuses = [
   {
     nome: "Zeus",
     mitologia: "Grega",
+    idMitologia: "grega",
     dominio: "Céu e Trovão",
     simbolos: ["⚡", "🦅"],
     descricao: "Rei dos deuses do Olimpo. Controla os céus e os raios."
@@ -11,6 +12,7 @@ const deuses = [
   {
     nome: "Júpiter",
     mitologia: "Romana",
+    idMitologia: "romana",
     dominio: "Céu e Justiça",
     simbolos: ["🦅", "⚡"],
     descricao: "Equivalente romano de Zeus, rei dos deuses do Olimpo."
@@ -19,6 +21,7 @@ const deuses = [
   {
     nome: "Thor",
     mitologia: "Nórdica",
+    idMitologia: "nordica",
     dominio: "Trovão e Força",
     simbolos: ["🔨", "⚡"],
     descricao: "Deus do trovão, empunha o martelo Mjölnir."
@@ -27,6 +30,7 @@ const deuses = [
   {
     nome: "Rá",
     mitologia: "Egípcia",
+    idMitologia: "egipcia",
     dominio: "Sol e Criação",
     simbolos: ["☀️", "Falcão"],
     descricao: "Deus sol, criador e senhor do céu."
@@ -35,6 +39,7 @@ const deuses = [
   {
     nome: "Lugh",
     mitologia: "Celta",
+    idMitologia: "celta",
     dominio: "Luz, Artes e Guerra",
     simbolos: ["☀️", "Lanterna"],
     descricao: "Deus multifacetado, mestre das artes e das habilidades."
@@ -43,6 +48,7 @@ const deuses = [
   {
     nome: "Shiva",
     mitologia: "Hindu",
+    idMitologia: "hindu",
     dominio: "Destruição e Renovação",
     simbolos: ["Tridente", "Serpente"],
     descricao: "Deus da transformação, destruição e regeneração."
@@ -51,6 +57,7 @@ const deuses = [
   {
     nome: "Ogun",
     mitologia: "Africana",
+    idMitologia: "africana",
     dominio: "Ferro, Guerra e Metalurgia",
     simbolos: ["🪓", "Ferro"],
     descricao: "Deus guerreiro e senhor do ferro."
@@ -59,6 +66,7 @@ const deuses = [
   {
     nome: "Amaterasu",
     mitologia: "Japonesa",
+    idMitologia: "japonesa",
     dominio: "Sol e Universo",
     simbolos: ["☀️", "Espelho"],
     descricao: "Deusa do sol, senhora do céu e da luz."
@@ -67,6 +75,7 @@ const deuses = [
   {
     nome: "Guanyin",
     mitologia: "Chinesa",
+    idMitologia: "chinesa",
     dominio: "Compaixão e Misericórdia",
     simbolos: ["🌸", "Água"],
     descricao: "Deusa da misericórdia, muito venerada no budismo chinês."
